@@ -17,13 +17,13 @@ Feel free to email me at miyyer@umd.edu with any comments/problems/questions/sug
 
 if you use this code, please cite:
 
-@inproceedings{IyyerRelationships,
-	Author = {Mohit Iyyer and Anupam Guha and Snigdha Chaturvedi and Jordan Boyd-Graber and Hal {Daum\'{e} III}},
-	Booktitle = {North American Association for Computational Linguistics},
-	Location = {San Diego, CA},
-	Year = {2016},
-	Title = {Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional Relationships},
-}
+	@inproceedings{IyyerRelationships,
+		Author = {Mohit Iyyer and Anupam Guha and Snigdha Chaturvedi and Jordan Boyd-Graber and Hal {Daum\'{e} III}},
+		Booktitle = {North American Association for Computational Linguistics},
+		Location = {San Diego, CA},
+		Year = {2016},
+		Title = {Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional Relationships},
+	}
 
 ### to-dos: 
 - clean and integrate the alpha tuning code
