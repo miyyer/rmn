@@ -7,7 +7,7 @@ Feel free to email me at miyyer@umd.edu with any comments/problems/questions/sug
 - recommended to train w/ GPU, on a 980 Ti each epoch takes 2-3 minutes
 
 ### download data and train model:
-- bash run.sh (does everything for you)
+- bash run.sh (downloads character interaction dataset, metadata info, and 300d GloVe embeddings pretrained on the Common Crawl, and then runs train_rmn.py to train an RMN on the downloaded dataset)
 
 ### visualizing learned trajectories
 - Running train_rmn.py yields three output files: the model parameters (rmn_params.pkl), the learned descriptors (descriptors.log), and the learned trajectories (trajectories.log). Before generating visualizations, you need to manually label each descriptor (each line in the descriptor file). You can do this by simply inserting your labels as the first word of each line in the descriptor file.
