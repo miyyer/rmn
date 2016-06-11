@@ -12,8 +12,8 @@ Feel free to email me at miyyer@umd.edu with any comments/problems/questions/sug
 ### visualizing learned trajectories
 - Running train_rmn.py yields three output files: the model parameters (rmn_params.pkl), the learned descriptors (descriptors.log), and the learned trajectories (trajectories.log). Before generating visualizations, you need to manually label each descriptor (each line in the descriptor file). You can do this by simply inserting your labels as the first word of each line in the descriptor file.
 - After labeling the descriptors, run viz.py to generate visualizations like the ones below:
-![alt text](http://cs.umd.edu/~miyyer/data/ClearAndPresentDanger__Ramirez__Chavez.png "Clear and Present Danger")
-![alt text](http://cs.umd.edu/~miyyer/data/alcott-little-261__Jo__Beth.png "Little Women")
+<img src="http://cs.umd.edu/~miyyer/data/ClearAndPresentDanger__Ramirez__Chavez.png" width="200">
+<img src="http://cs.umd.edu/~miyyer/data/alcott-little-261__Jo__Beth.png" width="200">
 
 if you use this code, please cite:
 
