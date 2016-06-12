@@ -6,6 +6,10 @@ Feel free to email me at miyyer@umd.edu with any comments/problems/questions/sug
 - python 2, numpy, theano, lasagne
 - recommended to train w/ GPU, on a 980 Ti each epoch takes 2-3 minutes
 
+### dataset description:
+- 20,046 relationships with 387,614 total spans from 1,378 different books
+- each span is provided in a bag-of-words format where stopwords and infrequent words have been filtered out as described in the paper
+
 ### download data and train model:
 - bash run.sh (downloads character interaction dataset, metadata info, and 300d GloVe embeddings pretrained on the Common Crawl, and then runs train_rmn.py to train an RMN on the downloaded dataset)
 
