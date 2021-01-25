@@ -1,6 +1,6 @@
 # Relationship Modeling Networks (RMN)
-Code for model described in [Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional Relationships](http://cs.umd.edu/~miyyer/pubs/2016_naacl_relationships.pdf) along with [a dataset of character interactions](http://cs.umd.edu/~miyyer/data/relationships.csv.gz). 
-Feel free to email me at miyyer@umd.edu with any comments/problems/questions/suggestions.
+Code for model described in [Feuding Families and Former Friends: Unsupervised Learning for Dynamic Fictional Relationships](http://cs.umd.edu/~miyyer/pubs/2016_naacl_relationships.pdf) along with [a dataset of character interactions](https://people.cs.umass.edu/~miyyer/data/relationships.csv.gz). 
+Feel free to email me at miyyer@cs.umass.edu with any comments/problems/questions/suggestions.
 
 ### dependencies: 
 - python 2, numpy, theano, lasagne
